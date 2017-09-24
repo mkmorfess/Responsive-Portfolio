@@ -2,7 +2,7 @@
 	float: left;
 	padding: 20px;
 	margin-left: 100px;
-	margin-top: 18px;
+	margin-top: 20px;
 	width: 200px;
 	text-align: center;
 	font-family: 'Georgia', Times, Times New Roman, serif;
@@ -16,7 +16,7 @@
 	padding-right: 0px;
 	margin-top: 0px;
 	margin-left: 0px;
-	margin-right: -225px;
+	margin-right: -50px;
 	background: #fff;
 	text-align: right;
 	border: 1px #cccccc solid;
@@ -168,7 +168,7 @@ p {
 }
 
 .buttonMargin {
-	margin-right: 635px;
+	margin-right: 375px;
 }
 
 .button
@@ -292,21 +292,21 @@ p {
 
 
  	#floatleft {
- 		margin: 20px;
+ 		margin-left: 30px;
  	}
 
  	#floatright {
- 		margin-right: -500px;
+ 		margin-right: 50px;
  	}
 
  	#left {
  		width: 450px;
- 		margin-left: 20px;
+ 		margin-left: 30px;
  	}
 
  	#right {
  		width: 180px;
- 		margin-left: 10px;
+ 		margin-left: 20px;
  	}
 
  	.image {
@@ -325,22 +325,69 @@ p {
 		top: 480px;
 		left: 50px;
 	}
+
+	.buttonMargin {
+		margin-right: 40px;
+	}
+
 }
 
 @media screen and (max-width: 768px) {
 
 	.wrapper {
-    width: 700px;
+		width:750px;
+	}
+
+	#floatleft {
+		margin-left: 40px;
+	}
+
+	#floatright {
+		margin-right: 100px;
+		padding: 50px;
+	
+}
+	#left {
+ 		width:550px;
+ 		margin-left: 40px;
+ 	}
+
+ 	#right {
+ 		width:550px;
+ 		margin-left: 40px;
+ 		margin-top: 10px;
+ 	}
+ 	.image {
+ 		margin-left: 100px;
+ 	}
+
+ 	footer {
+ 		width:550px;
+ 		margin-left: 20px;
+ 	}
+
+ 	.buttonMargin {
+		margin-right: 0px;
+}
+
+  }
+
+
+
+@media screen and (max-width: 640px) {
+
+	.wrapper {
+    width: 600px;
   }
 
    #floatleft {
-   	width: 600px;
+   	width: 550px;
    	margin-left: 40px;
    	margin-top: 10px;
    }
 
 	#floatright {
-		width:600px;
+		width: 550px;
 		margin-left: 40px;
 		padding: 20px;
 		clear: both;
@@ -348,18 +395,18 @@ p {
 	}
 
  	#left {
- 		width: 600px;
+ 		width:550px;
  		margin-left: 40px;
  	}
 
  	#right {
- 		width: 600px;
+ 		width:550px;
  		margin-left: 40px;
  		margin-top: 10px;
  	}
 
  	footer {
- 		width: 600px;
+ 		width:550px;
  		margin-left: 20px;
  	}
 
@@ -387,49 +434,5 @@ p {
 		padding-right: 50px;
 	}
 }
-
-
-@media screen and (max-width: 640px) {
-
-	.wrapper {
-    width: 500px;
-
-    #floatleft {
-   	width: 400px;
-   	margin-left: 40px;
-   	margin-top: 10px;
-   }
-
-	#floatright {
-		width:400px;
-		margin-left: 40px;
-		padding: 20px;
-		clear: both;
-		text-align: center;
-	}
-
- 	#left {
- 		width: 400px;
- 		margin-left: 40px;
- 	}
-
- 	#right {
- 		width: 400px;
- 		margin-left: 40px;
- 		margin-top: 10px;
- 	}
-
- 	footer {
- 		width: 400px;
- 		margin-left: 20px;
- 	}
-
- 	.buttonMargin {
-	margin-right: 0px;
-}
-}
-
-
-  }
 
 
