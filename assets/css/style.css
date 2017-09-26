@@ -407,7 +407,6 @@ p {
 
  	footer {
  		width:550px;
- 		margin-left: 20px;
  	}
 
  	.buttonMargin {
@@ -415,7 +414,7 @@ p {
 }
 
 	.image {
-		margin-left: 120px;
+		margin-left: 100px;
 	}
 		
 	#rpgGame {
